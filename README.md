@@ -6,13 +6,7 @@ This project expands on the Stage 0 profile card by adding two new pages: **Abou
 
 ---
 
-## 🚀 Live Demo
-**Live Site:** [View on GitHub Pages](https://your-username.github.io/multi-page-profile-site/)  
-**Repository:** [GitHub Repo](https://github.com/your-username/multi-page-profile-site)
 
-*(Replace `your-username` with your actual GitHub username.)*
-
----
 
 ## 🧩 Features
 
