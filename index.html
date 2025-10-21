@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profile Card</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <article class="profile-card" data-testid="test-profile-card">
+    
+    <figure class="avatar">
+      <img 
+        src="whatspp.png.jpg" 
+        alt="Profile picture of Samuel Sossa" 
+        data-testid="test-user-avatar">
+    </figure>
+
+    <section class="info">
+      <header>
+        <h2 data-testid="test-user-name">Samuel Sossa</h2>
+        <p data-testid="test-user-bio">
+          Creative front-end developer passionate about tech, art, and storytelling.
+          Always building ideas that connect people and spark curiosity.
+        </p>
+      </header>
+
+      <section class="time">
+        <p>
+          <strong>Current Time:</strong>
+          <span id="currentTime" data-testid="test-user-time"></span>
+        </p>
+      </section>
+
+      <nav aria-label="Social Links" data-testid="test-user-social-links">
+        <ul>
+          <li><a href="https://twitter.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a></li>
+          <li><a href="https://github.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a></li>
+          <li><a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a></li>
+        </ul>
+      </nav>
+
+      <section class="lists">
+        <div class="hobbies" data-testid="test-user-hobbies">
+          <h3>Hobbies</h3>
+          <ul>
+            <li>Music</li>
+            <li>Gaming</li>
+            <li>Design</li>
+          </ul>
+        </div>
+
+        <div class="dislikes" data-testid="test-user-dislikes">
+          <h3>Dislikes</h3>
+          <ul>
+            <li>Negativity</li>
+            <li>Overthinking</li>
+            <li>Slow Wi-Fi</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+  </article>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
